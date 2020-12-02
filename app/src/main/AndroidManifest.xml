@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zhang.lazyfood">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminActivity.AdminMainActivity"></activity>
+        <activity android:name=".AdminActivity.AdminAccountWithdrawalActivity" />
+        <activity android:name=".AdminActivity.AccountEditionActivity" />
+        <activity android:name=".AdminActivity.AccountInformationActivity" />
+        <activity android:name=".AdminActivity.FoodEditonActivity" />
+        <activity android:name=".AdminActivity.SchoolEditonActivity" />
+        <activity android:name=".AdminActivity.CanteenEditonActivity" />
+        <activity android:name=".AdminActivity.FoodInformationActivity" />
+        <activity android:name=".AdminActivity.CanteenInformationActivity" />
+        <activity android:name=".AdminActivity.SchoolInformationActivity" />
+        <activity android:name=".DistributorActivity.DistrobutorInformationEditingActivity" />
+        <activity android:name=".DistributorActivity.AccountWithdrawalActivity" />
+        <activity android:name=".DistributorActivity.ContactUserActivity" />
+        <activity android:name=".DistributorActivity.DistributeNowActivity" />
+        <activity android:name=".DistributorActivity.DistributorOrderDisplayActivity" />
+        <activity android:name=".DistributorActivity.DistributorMainActivity" />
+        <activity android:name=".UserActivity.ContactDistributorActivity" />
+        <activity android:name=".UserActivity.UserOrderDisplayActivity" />
+        <activity android:name=".UserActivity.UserInformationEditingActivity" />
+        <activity android:name=".UserActivity.UserPaymentActivity" />
+        <activity android:name=".UserActivity.OrderSubmissionActivity" />
+        <activity android:name=".UserActivity.CanteenActivity" />
+        <activity android:name=".UserActivity.DistributorRegisterActivity" />
+        <activity android:name=".UserActivity.UserRegisterActivity" />
+        <activity android:name=".UserActivity.LoginActivity" />
+        <activity android:name=".UserActivity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
